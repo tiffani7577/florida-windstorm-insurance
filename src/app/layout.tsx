@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  verification: { google: 'L-L7hsgywPWztgBZ6wmvHWraCXaAnw1rSZcCQvmuc0Y' },
   metadataBase: new URL('https://www.floridawindstorminsurance.com'),
   title: {
     default: 'Florida Windstorm Insurance | Coverage, Costs & Quotes',
