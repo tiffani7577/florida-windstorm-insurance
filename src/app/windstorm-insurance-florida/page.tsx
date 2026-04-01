@@ -82,7 +82,7 @@ export default function WindstormGuidePage() {
         <section className="py-12 px-4 bg-blue-900 text-white text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="font-serif text-3xl mb-4">Get a Free Florida Windstorm Quote</h2>
-            <p className="text-blue-200 mb-8">Our licensed agents compare windstorm rates from multiple Florida carriers. 2-minute phone quote, no obligation.</p>
+            <p className="text-blue-200 mb-8">Get free information on Florida windstorm rates from multiple carriers. 2-minute call, no obligation.</p>
             <CallButton variant="hero" label="Call Now for a Free Quote" />
           </div>
         </section>

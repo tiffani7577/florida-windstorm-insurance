@@ -73,7 +73,7 @@ export default function Footer() {
           {/* CTA */}
           <div>
             <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Get Help Now</h4>
-            <p className="text-teal-200 text-sm mb-4">Connect with a licensed Florida insurance specialist today.</p>
+            <p className="text-teal-200 text-sm mb-4">Call for free Florida windstorm insurance information. No obligation.</p>
             <a
               href="/get-a-quote"
               className="block text-center bg-coral-500 hover:bg-coral-600 text-white font-bold py-3 px-6 rounded-lg text-sm transition-colors mb-3"

@@ -32,7 +32,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-400/40 text-orange-300 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
               <span className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></span>
-              Florida-Licensed Agents Available Now
+              Free Florida Windstorm Insurance Information
             </div>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Florida Windstorm Insurance:<br />
@@ -42,13 +42,13 @@ export default function HomePage() {
               Windstorm damage is the #1 cause of insurance claims in Florida. Most homeowners don&apos;t know their policy has gaps until it&apos;s too late. Get the right coverage today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <CallButton variant="hero" label="Speak to a Florida Agent Now" />
+              <CallButton variant="hero" label="Call for Free Information" />
               <a href="/get-a-quote" className="text-blue-200 hover:text-white font-medium underline underline-offset-4 text-sm">
-                Or get a free online quote →
+                
               </a>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-blue-200">
-              {['Florida-Licensed Agents', 'No-Obligation Quote', '2026 Rates Available', '2-Minute Phone Quote'].map(t => (
+              {['Free Information', 'No Obligation', '2026 Rates Available', '2-Minute Call'].map(t => (
                 <span key={t} className="flex items-center gap-1.5">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
                   {t}
@@ -117,7 +117,7 @@ export default function HomePage() {
         <section className="py-14 px-4 bg-blue-900 text-white text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="font-serif text-3xl mb-4">Ready to Get the Right Windstorm Coverage?</h2>
-            <p className="text-blue-200 mb-8">Florida-licensed agents are standing by. No obligation. 2-minute phone quote.</p>
+            <p className="text-blue-200 mb-8">Get free information on Florida windstorm coverage. No obligation, no pressure.</p>
             <CallButton variant="hero" label="Call Now for a Free Quote" />
           </div>
         </section>

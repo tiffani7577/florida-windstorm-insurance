@@ -39,7 +39,7 @@ export default function FR44Page() {
               <span className="text-orange-400">Get Your License Back Today</span>
             </h1>
             <p className="text-blue-100 text-lg max-w-xl mx-auto mb-8">
-              Need a Florida FR-44 fast? Our licensed agents specialize in immediate filings to reinstate your license. Low down payments and 2026&apos;s newest rates.
+              Need a Florida FR-44 fast? Call to speak with an insurance professional who specializes in immediate filings to reinstate your license. Low down payments and 2026&apos;s newest rates.
             </p>
             <CallButton variant="hero" label="Call Now — Get Filed Today" />
             <p className="text-blue-300 text-sm mt-4">Mon–Fri 9am–9pm EST · Sat 12pm–5pm EST</p>
@@ -84,7 +84,7 @@ export default function FR44Page() {
             <h2 className="font-serif text-2xl text-blue-900 mb-4">How to Get Your FR-44 Filed Fast</h2>
             <div className="space-y-4 mb-8">
               {[
-                { step: '1', title: 'Call a Licensed Agent', desc: 'Call our team — we specialize in FR-44 filings and can get you quoted in 2 minutes.' },
+                { step: '1', title: 'Call for Instant Help', desc: 'Call our team — we specialize in FR-44 filings and can get you quoted in 2 minutes.' },
                 { step: '2', title: 'Get Your Policy', desc: 'We find the lowest-cost policy that meets FR-44 requirements. Low down payments available.' },
                 { step: '3', title: 'Electronic Filing', desc: 'Your insurer files the FR-44 electronically with DHSMV — often same day.' },
                 { step: '4', title: 'License Reinstated', desc: 'Once DHSMV processes the filing, your license reinstatement can proceed.' },
