@@ -1,58 +1,40 @@
 import type { Metadata } from 'next'
-import QuoteForm from '@/components/QuoteForm'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Get a Free Florida Home Insurance Quote — Sunshine State Insured',
-  description: 'Get a free, no-obligation Florida home insurance quote. We compare rates from top Florida carriers and find the best coverage for your home.',
-  alternates: { canonical: 'https://www.sunshinestateinsured.com/get-a-quote' },
+  title: 'Get a Free Florida Windstorm Insurance Quote',
+  description: 'Get a free Florida windstorm or FR-44/SR-22 insurance quote from licensed agents. Compare rates from multiple carriers. No obligation.',
 }
 
 export default function GetAQuotePage() {
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
-      {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-6 py-4">
-        <a href="/" className="text-teal-700 font-bold text-xl tracking-tight">
-          Sunshine State Insured
-        </a>
-      </header>
-
-      <main className="flex-1 py-16 px-6">
-        <div className="max-w-2xl mx-auto">
-          <div className="text-center mb-10">
-            <div className="inline-flex items-center gap-2 bg-teal-50 text-teal-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              Free, No-Obligation Quote
-            </div>
-            <h1 className="text-4xl font-bold text-slate-900 mb-4">
-              Get Your Florida Home Insurance Quote
-            </h1>
-            <p className="text-lg text-slate-600">
-              We compare rates from Florida's top carriers and connect you with a licensed specialist who knows the local market.
-            </p>
+    <>
+      <Header />
+      <main className="pb-20 lg:pb-0 min-h-screen bg-gray-50">
+        <section className="bg-blue-900 text-white py-12 px-4">
+          <div className="max-w-2xl mx-auto text-center">
+            <h1 className="font-serif text-4xl font-bold mb-4">Get Your Free Florida Quote</h1>
+            <p className="text-blue-100 text-lg">Licensed Florida agents compare rates from multiple carriers. No obligation, no spam.</p>
           </div>
-
-          <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-8">
-            <QuoteForm />
-          </div>
-
-          {/* Trust signals */}
-          <div className="mt-8 grid grid-cols-3 gap-4 text-center">
-            {[
-              { icon: '🔒', label: 'Your info is secure' },
-              { icon: '⚡', label: 'Response within 24 hours' },
-              { icon: '🏠', label: 'Florida specialists only' },
-            ].map((item) => (
-              <div key={item.label} className="bg-white rounded-xl border border-slate-200 p-4">
-                <div className="text-2xl mb-1">{item.icon}</div>
-                <div className="text-xs font-medium text-slate-600">{item.label}</div>
+        </section>
+        <section className="py-12 px-4">
+          <div className="max-w-xl mx-auto bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-200 text-orange-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">
+                <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></span>
+                Agents Available Now
               </div>
-            ))}
+              <h2 className="font-serif text-2xl text-blue-900 mb-2">Fastest: Call for an Instant Quote</h2>
+              <p className="text-gray-500 text-sm mb-6">2-minute phone quote — get rates from multiple carriers immediately</p>
+              <CallButton variant="hero" label="Call (435) 612-1009 Now" />
+              <p className="text-gray-400 text-xs mt-3">Mon–Fri 9am–9pm · Sat 12pm–5pm EST</p>
+            </div>
           </div>
-        </div>
+        </section>
       </main>
-    </div>
+      <Footer />
+    </>
   )
 }
