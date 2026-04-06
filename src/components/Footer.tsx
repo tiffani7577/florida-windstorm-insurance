@@ -91,7 +91,7 @@ export default function Footer() {
 
         <div className="border-t border-teal-800 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <p className="text-teal-400 text-xs">
-            © {new Date().getFullYear()} Sunshine State Insured. All rights reserved.
+            © {new Date().getFullYear()} Florida Windstorm Insurance. All rights reserved.
           </p>
           <p className="text-teal-500 text-xs max-w-xl">
             <strong className="text-teal-400">Disclaimer:</strong> This site is for informational purposes only. We are not licensed insurance agents and do not sell insurance. We connect consumers with licensed insurance professionals. Always consult a licensed Florida insurance agent before making coverage decisions.
