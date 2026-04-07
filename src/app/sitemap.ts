@@ -10,6 +10,7 @@ const pages = [
   { url: '/hurricane-deductible-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/coastal-florida-windstorm-insurance', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/citizens-insurance-windstorm', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/citizens-insurance-vs-private-market-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/windstorm-vs-homeowners-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/wind-mitigation-discount-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/cheap-windstorm-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },
