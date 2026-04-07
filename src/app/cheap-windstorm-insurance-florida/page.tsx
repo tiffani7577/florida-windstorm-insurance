@@ -2,11 +2,17 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Cheap Windstorm Insurance Florida 2026 | Compare Rates & Save',
+  title: 'Cheap Windstorm Insurance Florida 2026',
   description: 'Find cheap windstorm insurance in Florida without sacrificing coverage. Compare carriers, understand your options, and lower your windstorm premium today.',
   keywords: ['cheap windstorm insurance Florida', 'affordable windstorm insurance Florida', 'low cost windstorm coverage Florida', 'Florida windstorm insurance rates', 'windstorm insurance quotes Florida'],
   openGraph: {
-    title: 'Cheap Windstorm Insurance Florida 2026 | Compare Rates & Save',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cheap Windstorm Insurance Florida 2026',
+    description: 'Find cheap windstorm insurance in Florida without sacrificing coverage. Compare carriers, understand your options, and lower your windstorm premium today.',
+  },],
+    title: 'Cheap Windstorm Insurance Florida 2026',
     description: 'Find cheap windstorm insurance in Florida without sacrificing coverage.',
     url: 'https://www.floridawindstorminsurance.com/cheap-windstorm-insurance-florida',
   },

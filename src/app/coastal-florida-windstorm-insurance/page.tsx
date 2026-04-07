@@ -5,7 +5,7 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Coastal Florida Windstorm Insurance | Broward, Miami-Dade, Palm Beach',
+  title: 'Coastal Florida Windstorm Insurance | Get Covered',
   description: 'Windstorm insurance for coastal Florida homes in Broward County, Miami-Dade, and Palm Beach. Compare rates and find coverage when private carriers won\'t insure.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/coastal-florida-windstorm-insurance' },
 }

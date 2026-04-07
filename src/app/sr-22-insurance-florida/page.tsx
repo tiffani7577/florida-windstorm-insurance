@@ -4,8 +4,20 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Cheapest SR-22 Insurance Florida | 2026 Rate Reductions',
+  title: 'SR-22 Insurance Florida | 2026 Cheapest Rates',
   description: 'Florida auto rates dropped by 8% in 2026. Find the cheapest SR-22 filing and get back on the road today. No-obligation phone quotes in 2 minutes.',
+  alternates: { canonical: 'https://www.floridawindstorminsurance.com/sr-22-insurance-florida' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/sr-22-insurance-florida',
+    title: 'SR-22 Insurance Florida | 2026 Cheapest Rates',
+    description: 'Florida auto rates dropped by 8% in 2026. Find the cheapest SR-22 filing and get back on the road today. No-obligation phone quotes in 2 minutes.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SR-22 Insurance Florida | 2026 Cheapest Rates',
+    description: 'Florida auto rates dropped by 8% in 2026. Find the cheapest SR-22 filing and get back on the road today. No-obligation phone quotes in 2 minutes.',
+  },
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/sr-22-insurance-florida' },
 }
 

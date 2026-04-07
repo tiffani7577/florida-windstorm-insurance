@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Florida Windstorm Insurance | Coverage, Costs & 2026 Quotes',
+  title: 'Florida Windstorm Insurance | Coverage & Quotes',
   description: 'Florida windstorm insurance explained: hurricane deductibles, wind mitigation discounts, Citizens coverage gaps, and how to get the lowest rates in 2026. Call for a free quote.',
+  alternates: { canonical: 'https://www.floridawindstorminsurance.com' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com',
+    title: 'Florida Windstorm Insurance | Coverage & Quotes',
+    description: 'Florida windstorm insurance explained: hurricane deductibles, wind mitigation discounts, Citizens coverage gaps, and how to get the lowest rates in 2026. C',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Florida Windstorm Insurance | Coverage & Quotes',
+    description: 'Florida windstorm insurance explained: hurricane deductibles, wind mitigation discounts, Citizens coverage gaps, and how to get the lowest rates in 2026. C',
+  },
   alternates: { canonical: 'https://www.floridawindstorminsurance.com' },
 }
 

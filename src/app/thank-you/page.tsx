@@ -45,7 +45,7 @@ export default function ThankYouPage() {
                 { href: '/how-to-lower-home-insurance-premium-florida', label: 'How to lower your home insurance premium' },
                 { href: '/wind-mitigation-inspection-fort-lauderdale', label: 'What is a wind mitigation inspection?' },
                 { href: '/what-does-windstorm-deductible-mean-florida', label: 'What does windstorm deductible mean?' },
-                { href: '/best-home-insurance-companies-florida-2026', label: 'Best home insurance companies in Florida 2026' },
+                { href: '/windstorm-insurance-florida', label: 'Florida Windstorm Insurance Guide 2026' },
               ].map((link) => (
                 <li key={link.href}>
                   <a

@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Citizens Insurance Windstorm Coverage Florida | What to Know',
+  title: 'Citizens Insurance Windstorm Coverage Florida',
   description: "Citizens Property Insurance windstorm coverage explained: what it covers, what it doesn't, and when switching to private market makes sense in 2026.",
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/citizens-insurance-windstorm' },
 }

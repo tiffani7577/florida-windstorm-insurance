@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Florida Windstorm Insurance | Coverage, Costs & Quotes',
     template: '%s | Florida Windstorm Insurance',
   },
-  description: 'Florida homeowners: understand windstorm insurance, hurricane deductibles, wind mitigation discounts, and Citizens Insurance windstorm coverage. Get free quotes.',
+  description: 'Florida homeowners: understand windstorm insurance, hurricane deductibles, wind mitigation discounts, and Citizens Insurance windstorm coverage. Get fre...',
   keywords: ['Florida windstorm insurance', 'wind insurance Florida', 'hurricane deductible Florida', 'wind mitigation Florida', 'Citizens Insurance windstorm', 'coastal Florida insurance'],
   authors: [{ name: 'Florida Windstorm Insurance' }],
   creator: 'Florida Windstorm Insurance',

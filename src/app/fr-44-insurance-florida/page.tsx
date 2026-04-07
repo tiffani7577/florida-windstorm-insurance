@@ -15,7 +15,7 @@ const faqSchema = {
 }
 
 export const metadata: Metadata = {
-  title: 'Instant Florida FR-44 Filings | Get Your License Back Today',
+  title: 'Florida FR-44 Insurance | Instant Filing 2026',
   description: "Need a Florida FR-44 fast? We specialize in immediate filings to reinstate your license. Low down payments & 2026's newest rates. Click to call an agent now!",
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/fr-44-insurance-florida' },
 }

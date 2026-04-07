@@ -4,8 +4,20 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Wind Mitigation Florida | Save Up to 45% on Your Premium',
+  title: 'Wind Mitigation Florida | Save Up to 45%',
   description: 'A $150 wind mitigation inspection can save Florida homeowners 20–45% on their windstorm insurance premium. Learn what qualifies and how to get inspected.',
+  alternates: { canonical: 'https://www.floridawindstorminsurance.com/wind-mitigation-florida' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/wind-mitigation-florida',
+    title: 'Wind Mitigation Florida | Save Up to 45%',
+    description: 'A $150 wind mitigation inspection can save Florida homeowners 20–45% on their windstorm insurance premium. Learn what qualifies and how to get inspected.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Wind Mitigation Florida | Save Up to 45%',
+    description: 'A $150 wind mitigation inspection can save Florida homeowners 20–45% on their windstorm insurance premium. Learn what qualifies and how to get inspected.',
+  },
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/wind-mitigation-florida' },
 }
 

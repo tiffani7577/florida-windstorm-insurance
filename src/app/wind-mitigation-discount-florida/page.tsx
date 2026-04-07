@@ -2,11 +2,17 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Wind Mitigation Discount Florida 2026 | Save Up to 45%',
+  title: 'Wind Mitigation Discount Florida 2026',
   description: 'Florida homeowners can save hundreds per year with wind mitigation discounts. Learn what qualifies, how to get a wind mitigation inspection, and how much you can save.',
   keywords: ['wind mitigation discount Florida', 'wind mitigation inspection Florida', 'Florida wind mitigation credits', 'save on home insurance Florida wind', 'wind mitigation report Florida'],
   openGraph: {
-    title: 'Wind Mitigation Discount Florida 2026 | Save Up to 45%',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Wind Mitigation Discount Florida 2026',
+    description: 'Florida homeowners can save hundreds per year with wind mitigation discounts.',
+  },],
+    title: 'Wind Mitigation Discount Florida 2026',
     description: 'Florida homeowners can save hundreds per year with wind mitigation discounts.',
     url: 'https://www.floridawindstorminsurance.com/wind-mitigation-discount-florida',
   },

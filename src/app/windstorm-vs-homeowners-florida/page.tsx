@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Windstorm vs Homeowners Insurance Florida | Key Differences',
+  title: 'Windstorm vs Homeowners Insurance Florida',
   description: 'Florida windstorm insurance vs homeowners insurance: what each covers, why you need both, and how to avoid coverage gaps after a hurricane.',
+  alternates: { canonical: 'https://www.floridawindstorminsurance.com/windstorm-vs-homeowners-florida' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/windstorm-vs-homeowners-florida',
+    title: 'Windstorm vs Homeowners Insurance Florida',
+    description: 'Florida windstorm insurance vs homeowners insurance: what each covers, why you need both, and how to avoid coverage gaps after a hurricane.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Windstorm vs Homeowners Insurance Florida',
+    description: 'Florida windstorm insurance vs homeowners insurance: what each covers, why you need both, and how to avoid coverage gaps after a hurricane.',
+  },
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/windstorm-vs-homeowners-florida' },
 }
 

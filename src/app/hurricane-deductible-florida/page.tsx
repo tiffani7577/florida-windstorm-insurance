@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Hurricane Deductible Florida Explained | What It Costs You',
+  title: 'Hurricane Deductible Florida | What It Costs You',
   description: "Florida's hurricane deductible works differently than your standard deductible — and it can cost you tens of thousands. Learn what it means and how to lower it.",
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/hurricane-deductible-florida' },
 }

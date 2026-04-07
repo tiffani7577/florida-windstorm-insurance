@@ -6,6 +6,18 @@ import CallButton from '@/components/CallButton'
 export const metadata: Metadata = {
   title: 'Get a Free Florida Windstorm Insurance Quote',
   description: 'Get a free Florida windstorm or FR-44/SR-22 insurance quote from licensed agents. Compare rates from multiple carriers. No obligation.',
+  alternates: { canonical: 'https://www.floridawindstorminsurance.com/get-a-quote' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/get-a-quote',
+    title: 'Get a Free Florida Windstorm Insurance Quote',
+    description: 'Get a free Florida windstorm or FR-44/SR-22 insurance quote from licensed agents. Compare rates from multiple carriers. No obligation.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Get a Free Florida Windstorm Insurance Quote',
+    description: 'Get a free Florida windstorm or FR-44/SR-22 insurance quote from licensed agents. Compare rates from multiple carriers. No obligation.',
+  },
 }
 
 export default function GetAQuotePage() {

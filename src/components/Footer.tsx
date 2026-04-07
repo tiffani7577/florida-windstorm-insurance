@@ -81,7 +81,7 @@ export default function Footer() {
               Get a Free Quote
             </a>
             <a
-              href="/best-home-insurance-companies-florida-2026"
+              href="/windstorm-insurance-florida"
               className="block text-center border border-teal-500 text-teal-200 hover:text-white hover:border-white py-2.5 px-6 rounded-lg text-sm transition-colors"
             >
               Compare Companies
