@@ -15,9 +15,20 @@ const faqSchema = {
 }
 
 export const metadata: Metadata = {
-  title: 'Florida FR-44 Insurance | Instant Filing 2026',
-  description: "Need a Florida FR-44 fast? We specialize in immediate filings to reinstate your license. Low down payments & 2026's newest rates. Click to call an agent now!",
+  title: 'FR-44 Insurance Florida 2026 | Requirements',
+  description: 'FR-44 insurance in Florida: who needs it, how much it costs, and how to file with the FLHSMV after a DUI conviction.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/fr-44-insurance-florida' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/fr-44-insurance-florida',
+    title: 'FR-44 Insurance Florida 2026 | Requirements',
+    description: 'FR-44 insurance in Florida: who needs it, how much it costs, and how to file with the FLHSMV after a DUI conviction.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'FR-44 Insurance Florida 2026 | Requirements',
+    description: 'FR-44 insurance in Florida: who needs it, how much it costs, and how to file with the FLHSMV after a DUI conviction.',
+  },
 }
 
 export default function FR44Page() {

@@ -4,13 +4,19 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Citizens Insurance vs Private Market Florida 2026 | Which Is Better?',
-  description: 'Compare Citizens Property Insurance vs private market carriers for windstorm coverage in Florida. Costs, risks, and when to switch in 2026.',
+  title: 'Citizens vs Private Market Florida 2026',
+  description: 'Citizens Insurance vs private market in Florida: cost, coverage, and which is better for your home in 2026.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/citizens-insurance-vs-private-market-florida' },
   openGraph: {
-    title: 'Citizens Insurance vs Private Market Florida 2026 | Which Is Better?',
-    description: 'Compare Citizens Property Insurance vs private market carriers for windstorm coverage in Florida. Costs, risks, and when to switch in 2026.',
     url: 'https://www.floridawindstorminsurance.com/citizens-insurance-vs-private-market-florida',
+    title: 'Citizens vs Private Market Florida 2026',
+    description: 'Citizens Insurance vs private market in Florida: cost, coverage, and which is better for your home in 2026.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Citizens vs Private Market Florida 2026',
+    description: 'Citizens Insurance vs private market in Florida: cost, coverage, and which is better for your home in 2026.',
   },
 }
 

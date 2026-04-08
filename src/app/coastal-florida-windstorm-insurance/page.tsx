@@ -5,9 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Coastal Florida Windstorm Insurance | Get Covered',
-  description: 'Windstorm insurance for coastal Florida homes in Broward County, Miami-Dade, and Palm Beach. Compare rates and find coverage when private carriers won\'t insure.',
+  title: 'Coastal Florida Windstorm Insurance 2026',
+  description: 'Windstorm insurance for coastal Florida homeowners: carriers, rates, and how to get covered in high-risk coastal zones.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/coastal-florida-windstorm-insurance' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/coastal-florida-windstorm-insurance',
+    title: 'Coastal Florida Windstorm Insurance 2026',
+    description: 'Windstorm insurance for coastal Florida homeowners: carriers, rates, and how to get covered in high-risk coastal zones.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Coastal Florida Windstorm Insurance 2026',
+    description: 'Windstorm insurance for coastal Florida homeowners: carriers, rates, and how to get covered in high-risk coastal zones.',
+  },
 }
 
 export default function Page() {

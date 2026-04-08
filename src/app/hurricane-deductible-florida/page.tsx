@@ -4,9 +4,20 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Hurricane Deductible Florida | What It Costs You',
-  description: "Florida's hurricane deductible works differently than your standard deductible — and it can cost you tens of thousands. Learn what it means and how to lower it.",
+  title: 'Hurricane Deductible Florida 2026 | Guide',
+  description: 'Florida hurricane deductibles explained: how they work, typical amounts, and how to lower your out-of-pocket costs after a storm.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/hurricane-deductible-florida' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/hurricane-deductible-florida',
+    title: 'Hurricane Deductible Florida 2026 | Guide',
+    description: 'Florida hurricane deductibles explained: how they work, typical amounts, and how to lower your out-of-pocket costs after a storm.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hurricane Deductible Florida 2026 | Guide',
+    description: 'Florida hurricane deductibles explained: how they work, typical amounts, and how to lower your out-of-pocket costs after a storm.',
+  },
 }
 
 export default function HurricaneDeductiblePage() {

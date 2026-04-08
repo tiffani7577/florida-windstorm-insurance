@@ -4,21 +4,20 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Florida Windstorm Insurance Guide 2026',
-  description: 'Complete guide to Florida windstorm insurance in 2026: what it covers, how much it costs, which carriers offer it, and how to save with wind mitigation discounts.',
+  title: 'Windstorm Insurance Florida 2026 | Rates',
+  description: 'Florida windstorm insurance: what it covers, average costs, top carriers, and how to lower your premium in 2026.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/windstorm-insurance-florida' },
   openGraph: {
     url: 'https://www.floridawindstorminsurance.com/windstorm-insurance-florida',
-    title: 'Florida Windstorm Insurance Guide 2026',
-    description: 'Complete guide to Florida windstorm insurance in 2026: what it covers, how much it costs, which carriers offer it, and how to save with wind mitigation dis',
+    title: 'Windstorm Insurance Florida 2026 | Rates',
+    description: 'Florida windstorm insurance: what it covers, average costs, top carriers, and how to lower your premium in 2026.',
     images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Florida Windstorm Insurance Guide 2026',
-    description: 'Complete guide to Florida windstorm insurance in 2026: what it covers, how much it costs, which carriers offer it, and how to save with wind mitigation dis',
+    title: 'Windstorm Insurance Florida 2026 | Rates',
+    description: 'Florida windstorm insurance: what it covers, average costs, top carriers, and how to lower your premium in 2026.',
   },
-  
 }
 
 export default function WindstormGuidePage() {

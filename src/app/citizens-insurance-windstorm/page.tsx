@@ -4,9 +4,20 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Citizens Insurance Windstorm Coverage Florida',
-  description: "Citizens Property Insurance windstorm coverage explained: what it covers, what it doesn't, and when switching to private market makes sense in 2026.",
+  title: 'Citizens Insurance Windstorm Florida 2026',
+  description: 'Citizens Insurance windstorm coverage in Florida: what it covers, costs, and how to compare private market alternatives.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/citizens-insurance-windstorm' },
+  openGraph: {
+    url: 'https://www.floridawindstorminsurance.com/citizens-insurance-windstorm',
+    title: 'Citizens Insurance Windstorm Florida 2026',
+    description: 'Citizens Insurance windstorm coverage in Florida: what it covers, costs, and how to compare private market alternatives.',
+    images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Citizens Insurance Windstorm Florida 2026',
+    description: 'Citizens Insurance windstorm coverage in Florida: what it covers, costs, and how to compare private market alternatives.',
+  },
 }
 
 export default function CitizensWindstormPage() {

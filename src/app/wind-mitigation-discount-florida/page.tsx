@@ -3,19 +3,18 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Wind Mitigation Discount Florida 2026',
-  description: 'Florida homeowners can save hundreds per year with wind mitigation discounts. Learn what qualifies, how to get a wind mitigation inspection, and how much you can save.',
-  keywords: ['wind mitigation discount Florida', 'wind mitigation inspection Florida', 'Florida wind mitigation credits', 'save on home insurance Florida wind', 'wind mitigation report Florida'],
+  description: 'Get a wind mitigation discount in Florida and save up to $2,000/year. Learn what qualifies and how to get an inspection.',
   alternates: { canonical: 'https://www.floridawindstorminsurance.com/wind-mitigation-discount-florida' },
   openGraph: {
     url: 'https://www.floridawindstorminsurance.com/wind-mitigation-discount-florida',
     title: 'Wind Mitigation Discount Florida 2026',
-    description: 'Florida homeowners can save hundreds per year with wind mitigation discounts. Learn what qualifies, how to get a wind mitigation inspection, and how much y',
+    description: 'Get a wind mitigation discount in Florida and save up to $2,000/year. Learn what qualifies and how to get an inspection.',
     images: [{ url: 'https://www.floridawindstorminsurance.com/og-image.jpg' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Wind Mitigation Discount Florida 2026',
-    description: 'Florida homeowners can save hundreds per year with wind mitigation discounts. Learn what qualifies, how to get a wind mitigation inspection, and how much y',
+    description: 'Get a wind mitigation discount in Florida and save up to $2,000/year. Learn what qualifies and how to get an inspection.',
   },
 }
 
