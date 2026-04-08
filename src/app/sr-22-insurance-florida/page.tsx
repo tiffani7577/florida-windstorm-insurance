@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'SR-22 Insurance Florida | 2026 Cheapest Rates',
     description: 'Florida auto rates dropped by 8% in 2026. Find the cheapest SR-22 filing and get back on the road today. No-obligation phone quotes in 2 minutes.',
   },
-  alternates: { canonical: 'https://www.floridawindstorminsurance.com/sr-22-insurance-florida' },
+  
 }
 
 export default function SR22Page() {

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Florida Windstorm Insurance Guide 2026',
     description: 'Complete guide to Florida windstorm insurance in 2026: what it covers, how much it costs, which carriers offer it, and how to save with wind mitigation dis',
   },
-  alternates: { canonical: 'https://www.floridawindstorminsurance.com/windstorm-insurance-florida' },
+  
 }
 
 export default function WindstormGuidePage() {

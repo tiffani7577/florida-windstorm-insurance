@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Wind Mitigation Florida | Save Up to 45%',
     description: 'A $150 wind mitigation inspection can save Florida homeowners 20–45% on their windstorm insurance premium. Learn what qualifies and how to get inspected.',
   },
-  alternates: { canonical: 'https://www.floridawindstorminsurance.com/wind-mitigation-florida' },
+  
 }
 
 export default function WindMitigationPage() {

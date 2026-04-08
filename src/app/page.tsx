@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Florida Windstorm Insurance | Coverage & Quotes',
     description: 'Florida windstorm insurance explained: hurricane deductibles, wind mitigation discounts, Citizens coverage gaps, and how to get the lowest rates in 2026. C',
   },
-  alternates: { canonical: 'https://www.floridawindstorminsurance.com' },
+  
 }
 
 const pages = [

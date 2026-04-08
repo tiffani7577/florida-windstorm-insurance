@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Windstorm vs Homeowners Insurance Florida',
     description: 'Florida windstorm insurance vs homeowners insurance: what each covers, why you need both, and how to avoid coverage gaps after a hurricane.',
   },
-  alternates: { canonical: 'https://www.floridawindstorminsurance.com/windstorm-vs-homeowners-florida' },
+  
 }
 
 export default function Page() {
