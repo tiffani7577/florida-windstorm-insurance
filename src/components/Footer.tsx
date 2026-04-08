@@ -1,20 +1,20 @@
 
 const guides = [
-  { href: '/why-is-florida-home-insurance-so-expensive', label: 'Why Is Insurance So Expensive?' },
+  { href: '/windstorm-insurance-florida', label: 'Florida Windstorm Insurance Guide' },
+  { href: '/citizens-insurance-windstorm', label: 'Citizens Insurance Windstorm' },
   { href: '/citizens-insurance-vs-private-market-florida', label: 'Citizens vs Private Market' },
-  { href: '/home-insurance-dropped-by-carrier-florida', label: 'Dropped by Your Carrier?' },
-  { href: '/home-insurance-with-roof-over-15-years-florida', label: 'Roof Over 15 Years Old' },
-  { href: '/home-insurance-after-hurricane-claim-florida', label: 'After a Hurricane Claim' },
-  { href: '/how-to-lower-home-insurance-premium-florida', label: 'Lower Your Premium' },
+  { href: '/windstorm-vs-homeowners-florida', label: 'Windstorm vs Homeowners Insurance' },
+  { href: '/coastal-florida-windstorm-insurance', label: 'Coastal Florida Windstorm' },
+  { href: '/cheap-windstorm-insurance-florida', label: 'Cheap Windstorm Insurance Florida' },
 ]
 
 const coverage = [
-  { href: '/flood-insurance-broward-county', label: 'Flood Insurance Broward County' },
-  { href: '/wind-mitigation-inspection-fort-lauderdale', label: 'Wind Mitigation Inspections' },
-  { href: '/what-does-windstorm-deductible-mean-florida', label: 'Windstorm Deductibles Explained' },
-  { href: '/do-i-need-flood-insurance-if-not-in-flood-zone-florida', label: 'Flood Insurance Outside Flood Zones' },
-  { href: '/condo-insurance-vs-homeowners-florida', label: 'Condo vs Homeowners Insurance' },
-  { href: '/cheapest-home-insurance-fort-lauderdale', label: 'Cheapest Home Insurance Fort Lauderdale' },
+  { href: '/hurricane-deductible-florida', label: 'Hurricane Deductibles Explained' },
+  { href: '/wind-mitigation-florida', label: 'Wind Mitigation Florida' },
+  { href: '/wind-mitigation-discount-florida', label: 'Wind Mitigation Discounts' },
+  { href: '/fr-44-insurance-florida', label: 'FR-44 Insurance Florida' },
+  { href: '/sr-22-insurance-florida', label: 'SR-22 Insurance Florida' },
+  { href: '/get-a-quote', label: 'Get a Free Quote' },
 ]
 
 export default function Footer() {
