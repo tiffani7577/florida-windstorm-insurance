@@ -90,9 +90,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-teal-800 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          <p className="text-teal-400 text-xs">
-            © {new Date().getFullYear()} Florida Windstorm Insurance. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-1">
+            <p className="text-teal-400 text-xs">© {new Date().getFullYear()} Florida Windstorm Insurance. All rights reserved.</p>
+            <a href="mailto:info@floridawindstorminsurance.com" className="text-teal-400 text-xs hover:text-teal-200 transition-colors">info@floridawindstorminsurance.com</a>
+          </div>
           <p className="text-teal-500 text-xs max-w-xl">
             <strong className="text-teal-400">Disclaimer:</strong> This site is for informational purposes only. We are not licensed insurance agents and do not sell insurance. We connect consumers with licensed insurance professionals. Always consult a licensed Florida insurance agent before making coverage decisions.
           </p>
